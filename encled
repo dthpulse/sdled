@@ -175,11 +175,13 @@ def main(argv):
 
     if argv[1].upper() == 'ALL':
         for d in devlist:
+            # don't turn off leds for devices with fault led on
             if ((d[3][1]).upper()).replace(" ", "") != 'FAULT_ON' and argv[2].upper() != 'off':
                 result = set_status(d[2], argv[2].lower())
                 if result: return(result)
+            # ALL locate is applied to devices with fault led on also
             elif ((d[3][1]).upper()).replace(" ", "") == 'FAULT_ON' and argv[2].upper().replace(" ", "") == 'LOCATE':
-                result = set_status(d[2], argv[2].lower())
+                result = set_status(d[2], argv[2].lower())     
                 if result: return(result)
         return(0)
 
