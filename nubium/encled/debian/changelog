@@ -1,0 +1,11 @@
+encled (0.2) stable; urgency=medium
+
+  * Non-maintainer upload.
+
+ -- dp <@nubium.cz>  Thu, 30 Sep 2021 21:18:04 +0200
+
+encled (0.1) unstable; urgency=low
+
+  * Initial release
+
+ -- George Shuklin <george.shuklin@gmail.com>  Tue, 07 Jul 2015 18:38:19 +0300

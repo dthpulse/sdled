@@ -1,0 +1,31 @@
+Format: 1.8
+Date: Thu, 30 Sep 2021 21:18:04 +0200
+Source: encled
+Binary: encled
+Architecture: source amd64
+Version: 0.2
+Distribution: stable
+Urgency: medium
+Maintainer: George Shuklin <george.shuklin@gmail.com>
+Changed-By: dp <@nubium.cz>
+Description:
+ encled     - utility to control enclosure LEDs
+Changes:
+ encled (0.2) stable; urgency=medium
+ .
+   * Non-maintainer upload.
+Checksums-Sha1:
+ 9313762e7a9b70faf2a2c9b8d0ab27019092eb1f 581 encled_0.2.dsc
+ 28efe259f0bd0fda515c15e21b4c7ddb495f3e5f 11732 encled_0.2.tar.xz
+ 5a0251e547d0d74f899dddda6e3e2e00747d1b5b 4623 encled_0.2_amd64.buildinfo
+ d1c9f79cf9f0931c232ecbb2e201de24a41faf12 12128 encled_0.2_amd64.deb
+Checksums-Sha256:
+ 26e1a81a43b28034cf1f4c166b2842b7f641aa6a100e7791e5f30fdc97fa1090 581 encled_0.2.dsc
+ d2e3f57ecb798011d660ff50de8496962c422e635c16fdd9c58f08894060f45d 11732 encled_0.2.tar.xz
+ dbbc057390d00ea78cb79f63bc24364e4b601c7509f36b00b701003503434a15 4623 encled_0.2_amd64.buildinfo
+ e6e06a1a9ced37e84e5d4fbf7eb3d970a03802fbeafa4ec31009b88853d2ca1d 12128 encled_0.2_amd64.deb
+Files:
+ d2c206a84cb767525ea5d15b15e339c3 581 admin optional encled_0.2.dsc
+ ae43d4e8e1c8c3507af945f43774485f 11732 admin optional encled_0.2.tar.xz
+ 5b1cc69843896ee522a4abe8b48b7a7e 4623 admin optional encled_0.2_amd64.buildinfo
+ e42e002bb398bcf15827a63e1dbc28eb 12128 admin optional encled_0.2_amd64.deb
